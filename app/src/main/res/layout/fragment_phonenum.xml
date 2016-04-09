@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/phone_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入您的手机号"
+            android:maxLength="11"
+            android:numeric="integer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/bn_get_var"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/regist_get_ver"
+            android:text="@string/get_verification"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/agreement"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/tv_meituan_agreement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/meituanagreement"
+            android:textColor="@color/meituan" />
+    </LinearLayout>
+
+
+</LinearLayout>

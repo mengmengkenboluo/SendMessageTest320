@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cube_mints_white">#ffffffff</color>
+    <color name="cube_mints_f1f1f1">#f1f1f1</color>
+    <color name="cube_holo_blue_dark">#000000</color>
+    <color name="cube_mints_4d90fe">#4d90fe</color>
+    <color name="cube_mints_333333">#333333</color>
+    <color name="cube_holo_orange_light">#FE6B04</color>
+    <color name="cube_holo_orange_dark">#DF6D15</color>
+</resources>

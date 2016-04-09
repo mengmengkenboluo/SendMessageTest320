@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--定义几何图形四个角的弧度-->
+    <corners android:radius="3dp" />
+    <!--定义使用单种颜色填充-->
+    <solid android:color="#FFFFFF" />
+    <!--为几何形状绘制边框-->
+    <stroke
+        android:width="1dp"
+        android:color="#cecece" />
+</shape>

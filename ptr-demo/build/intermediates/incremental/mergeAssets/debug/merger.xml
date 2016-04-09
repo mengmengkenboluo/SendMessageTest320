@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="F:\SendMessageTest1122\ptr-demo\build\intermediates\exploded-aar\SendMessageTest1122\ptr-lib\unspecified\assets"/></dataSet><dataSet config="main"><source path="F:\SendMessageTest1122\ptr-demo\assets"><file name="request_init/demo/image-list.json" path="F:\SendMessageTest1122\ptr-demo\assets\request_init\demo\image-list.json"/></source></dataSet><dataSet config="debug"><source path="F:\SendMessageTest1122\ptr-demo\src\debug\assets"/></dataSet></merger>
